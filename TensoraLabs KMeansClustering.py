@@ -7,7 +7,6 @@ from sklearn.metrics import *
 import matplotlib.pyplot as plt
 
 st.title('TensoraLabs - KNN Classifier')
-st.write('Where ideas are built.')
 
 if 'model' not in st.session_state:
     st.session_state.model = None
